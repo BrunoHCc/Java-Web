@@ -69,7 +69,6 @@ public class Main {
                     System.out.println("Digite o nome do aluno: ");
                     String nome = scanner.nextLine();
                     List<Aluno> alunoList= controller.findAlunoByName(nome);
-                    System.out.println("Alunos encontrados: " + alunoList.size());
                     for (Aluno aluno: alunoList){
                         System.out.println(aluno.toString());
                     }
